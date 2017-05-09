@@ -25,7 +25,7 @@ registering the service provider, the `[2]` are for specifying the facades:
 // config/app.php
 
 return [
-
+https://github.com/codedge/laravel-fpdf#
     //...
     
     'providers' => [
@@ -85,7 +85,7 @@ Of course you can also inject the singleton instance via dependency injection. S
 ```php
 // app/Http/routes.php | app/routes/web.php
 
-Route::get('/', function (Codedge\Fpdf\Fpdf\FPDF $fpdf) {
+Route::get('/', function (Codedge\Fpdf\Fpdf\Fpdf $fpdf) {
 
     $fpdf->AddPage();
     $fpdf->SetFont('Courier', 'B', 18);
